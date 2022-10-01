@@ -58,10 +58,12 @@ GENERATING GEOMETRY.IN:
 9. Manually add in the lines of "  constrain_relaxation .true." below the Au atoms that are frozen during the relaxation calculation and save the file. 
 
 
-RUNNING THE PROCEDURE
+RUNNING THE AUTOMATED FHIaims and AITRANSS CALCULATIONS
 
 Once all that is set, type in to the command line
 - qsub run.sh
+
+GENERATING A TABLE OF ENERGIES AND TRANSMISSION AT EF=0
 
 Once all of the steps have completed type into the command line
 - module load python3/3.7.7
